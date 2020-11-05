@@ -1,8 +1,6 @@
-package gonzales.xml;
+package io.github.enridaga.gonzales.xml;
 
 import java.io.InputStream;
-
-import javax.xml.stream.XMLStreamException;
 
 public interface Gonza {
 

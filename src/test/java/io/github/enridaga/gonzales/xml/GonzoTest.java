@@ -1,4 +1,4 @@
-package gonzales.xml;
+package io.github.enridaga.gonzales.xml;
 
 import java.io.InputStream;
 

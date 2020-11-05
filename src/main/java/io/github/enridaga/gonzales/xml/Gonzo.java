@@ -1,4 +1,4 @@
-package gonzales.xml;
+package io.github.enridaga.gonzales.xml;
 
 import java.io.InputStream;
 
@@ -35,7 +35,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#begins(java.lang.String)
+	 * @see Gonza#begins(java.lang.String)
 	 */
 	@Override
 	public boolean meets(String path) {
@@ -48,7 +48,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#initialized()
+	 * @see Gonza#initialized()
 	 */
 	@Override
 	public boolean initialized() {
@@ -58,7 +58,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#ends(java.lang.String)
+	 * @see Gonza#ends(java.lang.String)
 	 */
 	@Override
 	public boolean leaves(String path) {
@@ -71,7 +71,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#init(java.io.InputStream)
+	 * @see Gonza#init(java.io.InputStream)
 	 */
 	@Override
 	public void init(InputStream is) throws GonzoException {
@@ -87,7 +87,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#traverse()
+	 * @see Gonza#traverse()
 	 */
 	@Override
 	public boolean stroll() throws GonzoException {
@@ -117,7 +117,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#hasAttribute(java.lang.String, java.lang.String)
+	 * @see Gonza#hasAttribute(java.lang.String, java.lang.String)
 	 */
 	@Override
 	public boolean hasAttribute(String name, String namespace) {
@@ -140,7 +140,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#getAttribute(java.lang.String)
+	 * @see Gonza#getAttribute(java.lang.String)
 	 */
 	@Override
 	public String getAttribute(String name) {
@@ -150,7 +150,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#hasAttribute(java.lang.String)
+	 * @see Gonza#hasAttribute(java.lang.String)
 	 */
 	@Override
 	public boolean hasAttribute(String name) {
@@ -160,7 +160,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#getAttribute(java.lang.String, java.lang.String)
+	 * @see Gonza#getAttribute(java.lang.String, java.lang.String)
 	 */
 	@Override
 	public String getAttribute(String name, String namespace) {
@@ -183,7 +183,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#pick()
+	 * @see Gonza#pick()
 	 */
 	@Override
 	public String pick() {
@@ -198,7 +198,7 @@ public class Gonzo implements Gonza {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see gonzales.xml.Gonza#getXMLValue()
+	 * @see Gonza#getXMLValue()
 	 */
 	@Override
 	public String pickXML() {

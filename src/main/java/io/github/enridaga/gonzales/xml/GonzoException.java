@@ -1,4 +1,4 @@
-package gonzales.xml;
+package io.github.enridaga.gonzales.xml;
 
 public final class GonzoException extends Exception {
 	/**
